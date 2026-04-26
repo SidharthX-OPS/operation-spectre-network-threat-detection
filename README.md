@@ -4,7 +4,7 @@
 
 ## Why I Built This
 
-After finishing [Operation ShadowNet](Shadownet-soc-lab), I went back and read my own incident report. Gap 3 in the Detection Gaps section said:
+After finishing [Operation ShadowNet](Shadownet-soc-lab/), I went back and read my own incident report. Gap 3 in the Detection Gaps section said:
 
 > *"No network-layer IDS — lateral movement traffic analysis relies entirely on host telemetry."*
 
@@ -143,7 +143,7 @@ index=suricata event_type=alert
 | table _time, suspicious_ip, alert.signature, bytes_sent, unique_dests
 ```
 
-All queries are saved in [`splunk-queries/`](splunk-queries/).
+All queries are saved in [`splunk-queries/`](splunk-queries.md/).
 
 ---
 
