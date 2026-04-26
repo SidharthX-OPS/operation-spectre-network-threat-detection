@@ -109,12 +109,10 @@ This is worth documenting because it shows the hunt methodology — I formed a h
 
 ---
 
-## Custom Suricata Rules
+## Custom Suricata Rule
 
-I wrote 5 rules in `local.rules`. The most relevant ones:
+I wrote 1 rule in `local.rules`. 
 
-**Beaconing (regular connection threshold):**
-```
 alert http $HOME_NET any -> $EXTERNAL_NET any (
   msg:"SPECTRE — Possible C2 Beacon — Regular HTTP to Same External IP";
   flow:established,to_server;
@@ -124,21 +122,6 @@ alert http $HOME_NET any -> $EXTERNAL_NET any (
   sid:9000008; rev:1;
   metadata:mitre_technique T1071.001;
 )
-```
-
-**TLS to bare IP without SNI:**
-```
-alert tls $HOME_NET any -> $EXTERNAL_NET 443 (
-  msg:"SPECTRE — TLS Connection to IP Without SNI — Possible Malware C2";
-  flow:established,to_server;
-  tls.sni; !content:".";
-  classtype:trojan-activity;
-  sid:9000006; rev:1;
-  metadata:mitre_technique T1071.001;
-)
-```
-
-All rules with documentation are in [`detection-rules/`](detection-rules/).
 
 ---
 
