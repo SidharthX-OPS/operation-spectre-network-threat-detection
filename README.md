@@ -46,7 +46,7 @@ I won't list every command here but the key things I set up:
 - Splunk indexes: `suricata` (for eve.json alerts) and `zeek` (for all Zeek log types)
 - Used `tcpreplay` with a dummy interface to replay packet captures for analysis
 
-Full setup notes are in [`lab-setup/`](lab-setup/).
+Full setup notes are in [`lab-setup/`](lab).
 
 ---
 
