@@ -180,7 +180,7 @@ All queries are saved in [`splunk-queries/`](queries/).
 
 Full threat analysis writeup with findings, MITRE mapping, and detection gaps:
 
-📄 [`reports/network-threat-analysis.pdf`](network-threat-analysis.pdf)
+📄 [`network-threat-analysis.pdf`](network-threat-analysis.pdf)
 
 ---
 
