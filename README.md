@@ -143,7 +143,7 @@ index=suricata event_type=alert
 | table _time, suspicious_ip, alert.signature, bytes_sent, unique_dests
 ```
 
-All queries are saved in [`splunk-queries/`](splunk-queries.md/).
+All queries are saved in [`splunk-queries/`](queries/).
 
 ---
 
