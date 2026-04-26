@@ -214,7 +214,7 @@ Things I couldn't detect with this current setup:
 
 ## Tools Used
 
-Suricata 7.x · Zeek 6.x · Splunk Enterprise · tcpreplay · tcpdump · Wireshark · Ubuntu 22.04
+Suricata 7.x · Zeek 6.x · Splunk Enterprise · tcpreplay · tcpdump · Ubuntu 22.04
 
 ---
 All analysis was performed on controlled, locally generated traffic to focus on behavioral detection techniques rather than relying on known malware samples.
