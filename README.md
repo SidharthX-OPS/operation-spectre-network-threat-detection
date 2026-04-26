@@ -163,7 +163,7 @@ All queries are saved in [`splunk-queries/`](queries/).
 
 **Splunk — Network Threat Detection Dashboard**
 
-![Splunk Dashboard](screenshots/spectre-dashboard.png)
+![Splunk Dashboard](screenshots/splunk-dashboard.png)
 
 **Suricata — Eve.json Alerts Firing**
 
@@ -171,11 +171,8 @@ All queries are saved in [`splunk-queries/`](queries/).
 
 **Zeek — Beacon Pattern in conn.log**
 
-![Beacon Detection](screenshots/zeek-conn-beacon.png)
+![Beacon Detection](screenshots/zeek-beaconing.png)
 
-**Zeek — JA3 Fingerprints from ssl.log**
-
-![JA3 Analysis](screenshots/ja3-ssl-log.png)
 
 ---
 
@@ -183,7 +180,7 @@ All queries are saved in [`splunk-queries/`](queries/).
 
 Full threat analysis writeup with findings, MITRE mapping, and detection gaps:
 
-📄 [`reports/network-threat-analysis.pdf`](reports/network-threat-analysis.pdf)
+📄 [`reports/network-threat-analysis.pdf`](network-threat-analysis.pdf)
 
 ---
 
