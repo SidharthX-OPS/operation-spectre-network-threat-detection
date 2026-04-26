@@ -1,11 +1,5 @@
 # Operation SPECTRE — Network Threat Detection Lab
 
-![Suricata](https://img.shields.io/badge/IDS-Suricata-orange?style=flat-square)
-![Zeek](https://img.shields.io/badge/NSM-Zeek-009688?style=flat-square)
-![Splunk](https://img.shields.io/badge/SIEM-Splunk-black?style=flat-square&logo=splunk&logoColor=white)
-![MITRE](https://img.shields.io/badge/Framework-MITRE_ATT%26CK-red?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
-
 ---
 
 ## Why I Built This
